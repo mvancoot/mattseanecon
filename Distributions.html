@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Distributions</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light"><img src="" class="mr-2"><a
+            class="navbar-brand" href="#">Cost of Living and Minimum Wage</a><button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="content1.html">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="correlations.html">Correlations</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">Frequently Asked Questions</a></li>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron" style="background:#eeeeee url('https://www.rbcroyalbank.com/en-ca/wp-content/uploads/sites/12/2023/09/Untitled-design-2023-07-31T120240.836-1.jpg?quality=80') no-repeat top left; background-size: cover;">
+        <h1 class="display-4" style="color:#ffffff !important;text-shadow: 1px 1px black">Distributions of Inflation, Tradeable and Non-Tradeable</h1>
+        <p class="lead" style="color:#ffffff !important;text-shadow: 1px 1px black">This page shows a histogram for the inflation between the control and treatment states.</p>
+        <p style="color:#ffffff !important;text-shadow: 1px 1px black"></p>
+    </div>
+    <div class="container" id="bsr-wrapper">
+        <iframe src="CT.html" style="border:none;" height="500" width="1220" title="Iframe Example"></iframe>
+        <p>Overall inflation with both the tradeable and non-tradeable sectors, the spread of the data is resembles the non-tradeable sector.</p>
+        <p>Control states have higher inflation counts in the median of the histogram. This proves earlier that the inflation in treatment statescould possibly be higher in treatment states because the cost of living is higher in these treatment states.</p>
+            <iframe src="TS.html" style="border:none;" height="500" width="1220" title="Iframe Example"></iframe>
+        <p>There is a wider spread of inflation in the distribution of inflation in the tradeable sector overall. This would be expected since you are trading with other countries that have their own currencies and having to deal with tarriffs.</p>
+        <p>The outliers here are interesting for both groups. Compared to the non-tradeable sector there are some abnormally low inflation rates but no high inflation rates out of the ordinary. This seems to indicate times of lower tariffs or times where the US traded with other countries where the exchange was in US currency.</p>
+        <p>It is also interesting to see the central limit theorem in effect, in the theory no matter what the median we will see a bell shaped curve.</p>
+            <iframe src="NTS.html" style="border:none;" height="500" width="1220" title="Iframe Example"></iframe>
+        <p>In this graph we see a tighter distribution however the control group actually has higher counts for inflation between 1-4%.</p>
+        <p>Although we see a few outliers in the 8 and 9% landscape, this histogram shows the control group has a larger influence in the non-tradeable sector than the treatment states.</p>
+        <p>If we were to do further analysis it might display what the control group are best at providing verus the treatment group.</p>
+    </div>
+    <footer class="bg-light text-light pt-5 pb-2 px-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="mb-1">Brand</h2>
+                <p class="mb-3"><small><em>Best product ever!</em></small></p>
+                <p> Address 1 <br> Address 2 <br> City, State ZIP </p>
+                <p> TEL (999) 123-4567 <br> FAX (999) 321-7654 </p>
+                <ul class="list-inline mt-5">
+                    <li class="list-inline-item"><a href="#" target="_blank" class="text-decoration-none"><i
+                                class="fa fa-fw fa-github-alt" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i
+                                class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i
+                                class="fa fa-fw fa-facebook-official" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Heading</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item py-1 bg-transparent border-0"><a href="index.html" target="_blank">Home</a></li>
+                    <li class="list-group-item py-1 bg-transparent border-0"><a href="content1.html" target="_blank">Overview</a></li>
+                    <li class="list-group-item py-1 bg-transparent border-0"><a href="correlations.html" target="_blank">Correlations</a></li>
+                    <li class="list-group-item py-1 bg-transparent border-0"><a href="faq.html" target="_blank">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Heading</h5>
+                <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush">
+                       
+                    </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col-sm-6">
+                <p>Copyright © 20XX Brand</p>
+            </div>
+            <div class="col-sm-6">
+              
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
